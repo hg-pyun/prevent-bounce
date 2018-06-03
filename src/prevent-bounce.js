@@ -3,9 +3,9 @@ export default class PreventBounce {
         this.$el = null;
         this.startDragPosY = 0;
 
-        this.handleTouchStart = ::this.handleTouchStart;
-        this.handleTouchMove = ::this.handleTouchMove;
-        this.handleTouchEnd = ::this.handleTouchEnd;
+        this.handleTouchStart = this.handleTouchStart.bind(this);
+        this.handleTouchMove = this.handleTouchMove.bind(this);
+        this.handleTouchEnd = this.handleTouchEnd.bind(this);
     }
 
     attach(element) {
