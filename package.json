@@ -1,0 +1,25 @@
+{
+  "name": "prevent-bounce",
+  "version": "1.0.0",
+  "description": "simple prevent iOS dismiss event for web application",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hg-pyun/prevent-bounce.git"
+  },
+  "author": "haegul(phg2491@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hg-pyun/prevent-bounce/issues"
+  },
+  "homepage": "https://github.com/hg-pyun/prevent-bounce#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1"
+  },
+  "scripts": {
+    "build": "echo \"Error: no test specified\" && exit 1"
+  }
+}

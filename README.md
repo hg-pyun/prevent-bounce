@@ -1,2 +1,2 @@
-# hg-pyun-prevent-bounce
+# prevent-bounce
 simple prevent iOS dismiss event for web application
