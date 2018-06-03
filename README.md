@@ -1,5 +1,5 @@
 # prevent-bounce
-simple prevent iOS dismiss event for web application
+simple prevent iOS dismiss event for web application.
 
 # How to Use
 #### Browser
