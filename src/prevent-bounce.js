@@ -1,4 +1,4 @@
-export default class PreventBounce {
+class PreventBounce {
     constructor() {
         this.$el = null;
         this.startDragPosY = 0;
@@ -61,3 +61,9 @@ export default class PreventBounce {
         return Math.atan(deltaY / deltaX) * 180 / Math.PI;
     }
 }
+
+// Do not use export 'default keyword'
+// transform-es2015-modules-umd doesn't trans file the keyword.
+// -> module.exports -> window.PreventDefault
+// -> export default -> window.PreventDefault.default
+module.exports = PreventBounce;

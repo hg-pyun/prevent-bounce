@@ -17,12 +17,13 @@
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.3",
     "babel-minify": "^0.4.3",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-minify": "^0.4.3",
     "cross-env": "^5.1.6",
     "eslint": "^4.19.1"
   },
   "scripts": {
-    "build": "cross-env BABEL_ENV=production npx babel ./src/prevent-bounce.js --out-file ./lib/prevent-bounce.min.js"
+    "build": "cross-env BABEL_ENV=production npx babel ./src/prevent-bounce.js --out-file ./lib/prevent-bounce.js && cp ./lib/prevent-bounce.js ./example/prevent-bounce.js"
   }
 }
