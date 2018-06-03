@@ -20,7 +20,7 @@ import PreventBounce from 'prevent-bounce';
 
 # Method
 #### attach(element)
-attach prevent event the element. if element is blank, default attached document.
+attach prevent event the element. if element is blank, default attached `document`.
 
 #### remove()
 remove prevent event.
