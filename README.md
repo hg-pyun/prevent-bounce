@@ -12,7 +12,7 @@ simple prevent iOS dismiss event for web application.
 ```
 
 #### ES6
-```javacript
+```javascript
 import PreventBounce from 'prevent-bounce';
 
 const preventBounce = new PreventBounce();
