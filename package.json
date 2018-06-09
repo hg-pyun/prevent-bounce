@@ -7,6 +7,12 @@
     "type": "git",
     "url": "git+https://github.com/hg-pyun/prevent-bounce.git"
   },
+  "keyword": [
+    "javascript",
+    "iOS",
+    "prevent",
+    "library"
+  ],
   "author": "haegul(phg2491@gmail.com)",
   "license": "MIT",
   "bugs": {
