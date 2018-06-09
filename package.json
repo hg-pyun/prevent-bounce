@@ -2,7 +2,7 @@
   "name": "prevent-bounce",
   "version": "1.0.0",
   "description": "simple prevent iOS dismiss event for web application",
-  "main": "index.js",
+  "main": "./lib/prevent-bounce.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hg-pyun/prevent-bounce.git"
@@ -13,7 +13,8 @@
     "prevent",
     "library"
   ],
-  "author": "haegul(phg2491@gmail.com)",
+  "author": "haegul",
+  "email": "phg2491@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hg-pyun/prevent-bounce/issues"
