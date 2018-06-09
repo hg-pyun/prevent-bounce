@@ -1,6 +1,11 @@
 # prevent-bounce
 simple prevent iOS dismiss event for web application.
 
+# Install
+```
+$ npm install prevent-bounce --save
+```
+
 # How to Use
 #### Browser
 ```html
